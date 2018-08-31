@@ -5,9 +5,13 @@
 
 }
 
-table tr td
+table tr td 
 {
     border: none;
+}
+
+table tr td div
+{
     padding: 40px;
 }
 
