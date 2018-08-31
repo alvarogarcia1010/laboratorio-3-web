@@ -1,0 +1,22 @@
+.table
+{
+    border:none;
+    margin: 2% auto;     
+
+}
+
+table tr td
+{
+    border: none;
+    padding: 40px;
+}
+
+.black
+{
+    background-color: black; 
+}
+
+td:hover > div
+{
+padding: 8;
+}
