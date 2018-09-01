@@ -1,26 +1,80 @@
 .table
 {
-    border:none;
-    margin: 2% auto;     
+  border:none;
+  margin: 2% auto;
 
 }
 
-table tr td 
+table tr td
 {
-    border: none;
+  border: none;
 }
 
 table tr td div
 {
-    padding: 40px;
+  margin:3px;
+  padding: 25px;
+}
+
+h1
+{
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(0, 110, 148);
+}
+
+table p
+{
+  width: 50px;
+  font-size: 1.1em;
+  text-align: center;
+  visibility: hidden;
+
+}
+
+footer p
+{
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.3em;
+  text-align: center;
 }
 
 .black
 {
-    background-color: black; 
+  background-color: black;
+}
+
+.text-white
+{
+  color: #ffffff;
+}
+
+footer
+{
+text-align: center;
+}
+
+a
+{
+  color: #0984e3;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.section-footer
+{
+  display: inline-block;
+  padding: 0 5%;
+
 }
 
 td:hover > div
 {
-padding: 8;
+  background-color:  rgba(255, 0, 0, 0.5);
+}
+
+td:hover > div >p
+{
+  visibility:inherit;
 }
