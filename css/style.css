@@ -1,0 +1,62 @@
+body
+{
+  margin: 0;
+}
+header > h1
+{
+  font-weight: bold;
+  text-align: center;
+  color: rgb(0, 110, 148);
+  font-family: 'Indie Flower', cursive;
+}
+
+footer p
+{
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+footer
+{
+  width: 100%;
+  text-align: center;
+}
+
+section
+{
+  margin: 1% auto;
+}
+
+a
+{
+  color: #0984e3;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+section
+{
+  display: inline-block;
+  margin: 12% auto;
+  width: 100%;
+  text-align: center;
+}
+
+.btn
+{
+  text-align: center;
+  background-color: #ffffff;
+  border: solid 1px #0984e3;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px 75px;
+}
+.section-footer
+{
+  display: inline-block;
+  padding: 0 8%;
+
+}
